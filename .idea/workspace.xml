@@ -4,8 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="676d8d99-bb30-43ba-b54b-4f4d33c6ee98" name="Changes" comment="">
+    <list default="true" id="676d8d99-bb30-43ba-b54b-4f4d33c6ee98" name="Changes" comment="ruta de prueba">
+      <change afterPath="$PROJECT_DIR$/datatypes/dt.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio1.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio2.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio3.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio7.py" beforeDir="false" afterPath="$PROJECT_DIR$/ejercicio7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ejercicio8.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,15 +34,26 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {}
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/JuanseAlzate/Arreglos.git",
-    "accountId": "860d7731-b5a2-47d9-9a30-cb0ff3942797"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;searchQuery&quot;: &quot;push&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/JuanseAlzate/Arreglos.git&quot;,
+    &quot;accountId&quot;: &quot;860d7731-b5a2-47d9-9a30-cb0ff3942797&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/ejercicio1.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -45,24 +65,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "FastAPI.TallerArreglos1.executor": "Run",
-    "Python.ejercicio3.executor": "Run",
-    "Python.ejercicio6.executor": "Run",
-    "Python.ejercicio8.executor": "Run",
-    "Python.ejercicio9.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;FastAPI.TallerArreglos1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio8.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ejercicio9.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="TallerArreglos1" type="Python.FastAPI">
       <option name="file" value="$PROJECT_DIR$/main.py" />
@@ -107,19 +128,43 @@
       <workItem from="1726432083728" duration="2937000" />
       <workItem from="1726435660804" duration="7546000" />
       <workItem from="1726447273821" duration="1896000" />
-      <workItem from="1726451599308" duration="3294000" />
+      <workItem from="1726451599308" duration="3698000" />
+      <workItem from="1726632825063" duration="4716000" />
+      <workItem from="1726685806221" duration="1661000" />
+      <workItem from="1726687505403" duration="8953000" />
     </task>
+    <task id="LOCAL-00001" summary="ruta de prueba">
+      <option name="closed" value="true" />
+      <created>1726455792684</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726455792684</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ruta de prueba">
+      <option name="closed" value="true" />
+      <created>1726456045098</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1726456045099</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ruta de prueba" />
+    <option name="LAST_COMMIT_MESSAGE" value="ruta de prueba" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TallerArreglos1$ejercicio8.coverage" NAME="ejercicio8 Coverage Results" MODIFIED="1726434796234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TallerArreglos1$ejercicio6.coverage" NAME="ejercicio6 Coverage Results" MODIFIED="1726431965972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TallerArreglos1$TallerArreglos1.coverage" NAME="TallerArreglos1 Coverage Results" MODIFIED="1726455601095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/TallerArreglos1$TallerArreglos1.coverage" NAME="TallerArreglos1 Coverage Results" MODIFIED="1726695849684" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
     <SUITE FILE_PATH="coverage/TallerArreglos1$ejercicio3.coverage" NAME="ejercicio3 Coverage Results" MODIFIED="1726438842343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TallerArreglos1$main.coverage" NAME="main Coverage Results" MODIFIED="1726454622368" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TallerArreglos1$ejercicio9.coverage" NAME="ejercicio9 Coverage Results" MODIFIED="1726434526373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TallerArreglos1$ejercicio9.coverage" NAME="ejercicio9 Coverage Results" MODIFIED="1726686664909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
