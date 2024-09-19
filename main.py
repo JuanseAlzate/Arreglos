@@ -1,7 +1,7 @@
+import math
+import functions
 from fastapi import FastAPI
 from datatypes import dt
-import math
-from functions import max_num_pos, primos, primos100_300, sd
 app = FastAPI()
 
 @app.post("/exer1")
@@ -11,15 +11,10 @@ def ejercicio1(body: dt.Req):
     if len(body.list) != 10:
         return {"El arreglo solo recibe 10 elementos"}
 
-    response = max_num_pos(body.list)
-
-    return  {
-        "max": response["max"],
-        "pos": response["pos"]
-    }
+    return functions.max_num_pos(body.list)
 
 @app.post("/exer2")
-def mayor_primo(body: dt.Req):
+def ejercicio2(body: dt.Req):
 
     print(body.list)
     if len(body.list) != 10:
@@ -29,7 +24,7 @@ def mayor_primo(body: dt.Req):
     pos = -1
 
     for i, num in enumerate(body.list):
-        if primos(num) and num > maxPrime:
+        if functions.primos(num) and num > maxPrime:
             maxPrime = num
             pos = i
 
@@ -40,13 +35,14 @@ def mayor_primo(body: dt.Req):
 
 @app.get("/exer3")
 def ejercicio3():
+
     primes = []
-    for i in range(100, 301):
-        if primos100_300(i):
+    for i in range(100, 300 + 1):
+        if functions.primos(i):
             primes.append(i)
         if len(primes) == 10:
             break
-    return {"Número primos entre 100 y 300": primes}
+    return {"Números primos entre 100 y 300": primes}
 
 @app.post("/exer4")
 def ejercicio4(body: dt.Req):
@@ -75,17 +71,27 @@ def ejercicio5(body: dt.Req):
 
 @app.post("/exer6")
 def ejercicio6(body : dt.Req):
+
+    print(body.list)
+    if len(body.list) != 10:
+        return {"El arreglo solo recibe 10 elementos"}
+
     prom = sum(body.list) // len(body.list)
     inList = prom in body.list
     return {"Promedio": prom, "Está en el arreglo": inList }
 
 @app.post("/exer7")
 def sdm(body: dt.Req):
+
+    print(body.list)
+    if len(body.list) != 10:
+        return {"El arreglo solo recibe 10 elementos"}
+
     maxSum = -1
     pos = -1
 
     for i, num in enumerate(body.list):
-        sum = sd(num)
+        sum = functions.sd(num)
         if sum > maxSum:
             maxSum = sum
             pos = i
@@ -94,11 +100,21 @@ def sdm(body: dt.Req):
 
 @app.post("/exer8")
 def ejercicio8(body: dt.Req):
+
+    print(body.list)
+    if len(body.list) != 10:
+        return {"El arreglo solo recibe 10 elementos"}
+
     fact = [math.factorial(num) for num in body.list]
     ans = [{"Número": num, "Y su Factorial": fact} for num, fact in zip(body.list, fact)]
     return {"Los factoriales": ans}
 
 @app.post("/exer9")
 def ejercicio9(body: dt.Req):
+
+    print(body.list)
+    if len(body.list) != 10:
+        return {"El arreglo solo recibe 10 elementos"}
+
     nums = {num: list(range(1, num + 1)) for num in body.list}
     return {"Números entre el 1 y el número dado": nums}
